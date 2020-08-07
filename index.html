@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <button class="cont" data-time="5">5 min</button>
+      <button class="cont" data-time="20">Pomodoro 20 min</button>
+      <button class="cont" data-time="120">Work 2 hours</button>
+      <button class="cont" data-time="10">Snack 10</button>
+      <button class="cont" data-time="45">Lunch break</button>
+      <form class="cont" name="customForm" id="customForm">
+        <input type="text" name="minutes" placeholder="Enter Minutes" />
+      </form>
+    </div>
+
+    <h1 id="timer"></h1>
+    <h2 id="be-back"></h2>
+
+    <script src="clockhand.js"></script>
+  </body>
+</html>
